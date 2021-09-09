@@ -11,3 +11,9 @@ export const foo = async (num?: number): Promise<boolean> => {
   console.log('done');
   return true;
 };
+
+export class TestClass1 {
+  add(i: number): number {
+    return i + 1;
+  }
+}

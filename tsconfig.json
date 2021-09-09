@@ -23,7 +23,8 @@
     "outDir": "./dist/tsc/",
     "types": [
       "node",
-      "jest"
+      "jest",
+      "node-kraken-ws"
     ],
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "lib": [
